@@ -1,6 +1,6 @@
 # Journey
 Using pwntools to auto reply to the server
-'''
+```
 [+] Opening connection to p1.tjctf.org on port 8009: Done
 one
 infected
@@ -186,4 +186,4 @@ myriad
 temples
 ...
 tjctf{an_38720_step_journey}
-'''
+```
