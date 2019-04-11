@@ -13,7 +13,7 @@ When I click back or forward it shows the same website but different URL:
 ![Screenshot2.png](Screenshot2.png)
 
 Nothing suspicious in the source code:
-```
+```html
 
 <html>
 
@@ -49,7 +49,7 @@ And the flag the exit for the maze
 
 So I wrote a [script](solve.py) using Python that will automatic play the maze for me:
 
-```
+```python
 import requests
 import re
 import random
@@ -112,7 +112,7 @@ So I decided to use multiple thread to check to remain unchecked path
 
 This is my final code after alot of debuging:
 
-```
+```python
 import requests
 import re
 import random
