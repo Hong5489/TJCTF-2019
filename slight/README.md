@@ -84,13 +84,17 @@ But It only detected 4 circles =(
 After I changing the `param2` to 20 the result improved
 
 But also detected not the circle I wanted:
+
 ![output2](test3.jpg)
 
 After alots of trial and errors (Changing the `param1` and `param2`) , I finally got a nice output:
+
 ![output3](test4.jpg)
 
 Using the Distance formula to calculate distance in terms of pixel:
+
 ![distance](the_distance_formula.png)
+
 `distance = sqrt((x1 - x2) + (y1 - y2))`
 
 After few hours of struggle, I finally solve this!!
