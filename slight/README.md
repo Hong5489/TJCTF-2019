@@ -31,6 +31,7 @@ file file
 file: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 400x400, frames 3
 ```
 And its a image that has alot of black circle with white backgroud:
+
 ![file](file)
 
 The connection said `Find the minimum distance between the centers of two circles to continue:`
@@ -45,6 +46,7 @@ After some research, we found **OpenCV** has a function that can detect circles 
 
 ## Resources
 [Detecting Circles in Images using OpenCV and Hough Circles](https://www.pyimagesearch.com/2014/07/21/detecting-circles-images-using-opencv-hough-circles/)
+
 [Hough Circle Transform](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_houghcircles/py_houghcircles.html)
 
 ### Decode base64 and save the image to test.jpg
@@ -77,15 +79,15 @@ cv2.destroyAllWindows()
 ```
 But It only detected 4 circles =(
 
-[output](test2.jpg)
+![output](test2.jpg)
 
 After I changing the `param2` to 20 the result improved
 
 But also detected not the circle I wanted:
-[output2](test3.jpg)
+![output2](test3.jpg)
 
 After alots of trial and errors (Changing the `param1` and `param2`) , I finally got a nice output:
-[output3](test4.jpg)
+![output3](test4.jpg)
 
 Using the Distance formula to calculate distance in terms of pixel:
 ![distance](the_distance_formula.png)
